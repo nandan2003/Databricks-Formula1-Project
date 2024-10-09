@@ -1,0 +1,212 @@
+constructor_id,constructor_ref,name,nationality,data_source,file_date,ingestion_date
+1,mclaren,McLaren,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+2,bmw_sauber,BMW Sauber,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+3,williams,Williams,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+4,renault,Renault,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+5,toro_rosso,Toro Rosso,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+6,ferrari,Ferrari,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+7,toyota,Toyota,Japanese,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+8,super_aguri,Super Aguri,Japanese,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+9,red_bull,Red Bull,Austrian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+10,force_india,Force India,Indian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+11,honda,Honda,Japanese,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+12,spyker,Spyker,Dutch,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+13,mf1,MF1,Russian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+14,spyker_mf1,Spyker MF1,Dutch,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+15,sauber,Sauber,Swiss,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+16,bar,BAR,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+17,jordan,Jordan,Irish,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+18,minardi,Minardi,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+19,jaguar,Jaguar,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+20,prost,Prost,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+21,arrows,Arrows,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+22,benetton,Benetton,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+23,brawn,Brawn,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+24,stewart,Stewart,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+25,tyrrell,Tyrrell,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+26,lola,Lola,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+27,ligier,Ligier,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+28,forti,Forti,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+29,footwork,Footwork,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+30,pacific,Pacific,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+31,simtek,Simtek,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+32,team_lotus,Team Lotus,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+33,larrousse,Larrousse,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+34,brabham,Brabham,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+35,dallara,Dallara,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+36,fondmetal,Fondmetal,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+37,march,March,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+38,moda,Andrea Moda,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+39,ags,AGS,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+40,lambo,Lambo,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+41,leyton,Leyton House,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+42,coloni,Coloni,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+44,eurobrun,Euro Brun,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+45,osella,Osella,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+46,onyx,Onyx,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+47,life,Life,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+48,rial,Rial,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+49,zakspeed,Zakspeed,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+50,ram,RAM,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+51,alfa,Alfa Romeo,Swiss,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+52,spirit,Spirit,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+53,toleman,Toleman,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+54,ats,ATS,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+55,theodore,Theodore,Hong Kong,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+56,fittipaldi,Fittipaldi,Brazilian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+57,ensign,Ensign,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+58,shadow,Shadow,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+59,wolf,Wolf,Canadian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+60,merzario,Merzario,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+61,kauhsen,Kauhsen,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+62,rebaque,Rebaque,Mexican,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+63,surtees,Surtees,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+64,hesketh,Hesketh,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+65,martini,Martini,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+66,brm,BRM,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+67,penske,Penske,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+68,lec,LEC,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+69,mcguire,McGuire,Australian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+70,boro,Boro,Dutch,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+71,apollon,Apollon,Swiss,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+72,kojima,Kojima,Japanese,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+73,parnelli,Parnelli,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+74,maki,Maki,Japanese,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+75,hill,Embassy Hill,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+76,lyncar,Lyncar,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+77,trojan,Trojan,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+78,amon,Amon,New Zealand,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+79,token,Token,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+80,iso_marlboro,Iso Marlboro,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+81,tecno,Tecno,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+82,matra,Matra,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+83,politoys,Politoys,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+84,connew,Connew,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+85,bellasi,Bellasi,Swiss,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+86,tomaso,De Tomaso,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+87,cooper,Cooper,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+88,eagle,Eagle,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+89,lds,LDS,South African,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+90,protos,Protos,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+91,shannon,Shannon,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+92,scirocco,Scirocco,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+93,re,RE,Rhodesian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+94,brp,BRP,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+95,porsche,Porsche,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+96,derrington,Derrington,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+97,gilby,Gilby,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+98,stebro,Stebro,Canadian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+99,emeryson,Emeryson,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+100,enb,ENB,Belgium,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+101,jbw,JBW,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+102,ferguson,Ferguson,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+103,mbm,MBM,Swiss,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+104,behra-porsche,Behra-Porsche,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+105,maserati,Maserati,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+106,scarab,Scarab,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+107,watson,Watson,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+108,epperly,Epperly,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+109,phillips,Phillips,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+110,lesovsky,Lesovsky,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+111,trevis,Trevis,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+112,meskowski,Meskowski,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+113,kurtis_kraft,Kurtis Kraft,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+114,kuzma,Kuzma,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+115,vhristensen,Christensen,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+116,ewing,Ewing,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+117,aston_martin,Aston Martin,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+118,vanwall,Vanwall,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+119,moore,Moore,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+120,dunn,Dunn,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+121,elder,Elder,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+122,sutton,Sutton,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+123,fry,Fry,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+124,tec-mec,Tec-Mec,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+125,connaught,Connaught,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+126,alta,Alta,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+127,osca,OSCA,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+128,gordini,Gordini,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+129,stevens,Stevens,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+130,bugatti,Bugatti,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+131,mercedes,Mercedes,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+132,lancia,Lancia,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+133,hwm,HWM,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+134,schroeder,Schroeder,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+135,pawl,Pawl,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+136,pankratz,Pankratz,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+137,arzani-volpini,Arzani-Volpini,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+138,nichels,Nichels,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+139,bromme,Bromme,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+140,klenk,Klenk,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+141,simca,Simca,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+142,turner,Turner,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+143,del_roy,Del Roy,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+144,veritas,Veritas,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+145,bmw,BMW,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+146,emw,EMW,East German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+147,afm,AFM,German,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+148,frazer_nash,Frazer Nash,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+149,sherman,Sherman,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+150,deidt,Deidt,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+151,era,ERA,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+152,butterworth,Aston Butterworth,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+153,cisitalia,Cisitalia,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+154,lago,Talbot-Lago,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+155,hall,Hall,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+156,marchese,Marchese,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+157,langley,Langley,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+158,rae,Rae,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+159,olson,Olson,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+160,wetteroth,Wetteroth,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+161,adams,Adams,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+162,snowberger,Snowberger,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+163,milano,Milano,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+164,hrt,HRT,Spanish,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+167,cooper-maserati,Cooper-Maserati,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+166,virgin,Virgin,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+168,cooper-osca,Cooper-OSCA,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+169,cooper-borgward,Cooper-Borgward,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+170,cooper-climax,Cooper-Climax,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+171,cooper-castellotti,Cooper-Castellotti,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+172,lotus-climax,Lotus-Climax,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+173,lotus-maserati,Lotus-Maserati,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+174,de_tomaso-osca,De Tomaso-Osca,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+175,de_tomaso-alfa_romeo,De Tomaso-Alfa Romeo,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+176,lotus-brm,Lotus-BRM,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+177,lotus-borgward,Lotus-Borgward,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+178,cooper-alfa_romeo,Cooper-Alfa Romeo,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+179,de_tomaso-ferrari,De Tomaso-Ferrari,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+180,lotus-ford,Lotus-Ford,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+181,brabham-brm,Brabham-BRM,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+182,brabham-ford,Brabham-Ford,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+183,brabham-climax,Brabham-Climax,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+184,lds-climax,LDS-Climax,South African,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+185,lds-alfa_romeo,LDS-Alfa Romeo,South African,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+186,cooper-ford,Cooper-Ford,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+187,mclaren-ford,McLaren-Ford,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+188,mclaren-seren,McLaren-Serenissima,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+189,eagle-climax,Eagle-Climax,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+190,eagle-weslake,Eagle-Weslake,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+191,brabham-repco,Brabham-Repco,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+192,cooper-ferrari,Cooper-Ferrari,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+193,cooper-ats,Cooper-ATS,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+194,mclaren-brm,McLaren-BRM,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+195,cooper-brm,Cooper-BRM,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+196,matra-ford,Matra-Ford,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+197,brm-ford,BRM-Ford,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+198,mclaren-alfa_romeo,McLaren-Alfa Romeo,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+199,march-alfa_romeo,March-Alfa Romeo,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+200,march-ford,March-Ford,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+201,lotus-pw,Lotus-Pratt &amp; Whitney,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+202,shadow-ford,Shadow-Ford,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+203,shadow-matra,Shadow-Matra,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+204,brabham-alfa_romeo,Brabham-Alfa Romeo,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+205,lotus_racing,Lotus,Malaysian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+206,marussia,Marussia,Russian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+207,caterham,Caterham,Malaysian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+208,lotus_f1,Lotus F1,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+209,manor,Manor Marussia,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+210,haas,Haas F1 Team,American,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+211,racing_point,Racing Point,British,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+213,alphatauri,AlphaTauri,Italian,Ergast,2021-04-18,2024-10-07T11:40:52.808Z
+214,alpine,Alpine F1 Team,French,Ergast,2021-04-18,2024-10-07T11:40:52.808Z

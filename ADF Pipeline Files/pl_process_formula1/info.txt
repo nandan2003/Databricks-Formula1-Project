@@ -1,0 +1,6 @@
+selected resource name:		pl_process_formula1_data
+selected resource type:		pipeline
+factory name:			adf-databricks-project
+factory location:		uksouth
+subscription id:		f1b009f9-c0fa-469d-88c4-9b587c055be7
+time of download (UTC):		Wed, 09 Oct 2024 06:27:13 GMT
