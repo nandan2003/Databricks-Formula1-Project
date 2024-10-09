@@ -31,7 +31,7 @@ The pipeline is scheduled to run periodically (weekly), handling new incoming da
    - The raw data is ingested into Databricks via a mounted Azure Data Lake Gen 2 container.
 
 2. Data Transformation (Silver Layer): 
-   - The raw data is cleaned and transformed into usable formats (e.g., Parquet, CSV).
+   - The raw data is cleaned and transformed into usable formats (e.g., Parquet, Delta Lake).
    - The transformed data is stored in the silver container.
 
 3. Data Structuring (Gold Layer): 
@@ -65,11 +65,25 @@ To run this project, you need:
    gh repo clone nandan2003/Databricks-Formula1-Project
    ```
 
-2. Setup Databricks Notebooks:
-   - Mount the Azure Data Lake Gen 2 containers (Bronze, Silver, and Gold) using the provided `set-up/mount_adls_storage.ipynb`
-   - Upload and run the provided Jupyter Notebooks in    `ingestion` and `trans` your Databricks workspace for data transformation.
+2. Setup Azure Data Lake Gen 2:
+   - Create the raw, processed and presentation containers.
+   - Upload all the unprocessed files into the raw container.
+  
+3. Azure App Registration:
+   - Create a new App Registration in Azure portal.
+   - Create a new client secret. Store the Client ID, Client Secret and Tenant ID in Azure Key Vault.
+  
+4. Scope in Databricks:
+   - Create a Scope in Databricks workspace. The scope is created by adding `#secrets/createScope` at the end of Databricks homepage URL.
+   - A scope name, Azure Key Vault DNS name and Resourse ID should be given to create a scope.
+
+5. Setup Databricks Notebooks:
+   - Mount the Azure Data Lake Gen 2 containers (Bronze, Silver, and Gold) using the provided `set-up/mount_adls_storage.ipynb`.
+   - Run `utils/prepare_for_incremental_load.sql` to drop all databases if exists including all tables and creates new database.
+   - Run `raw/create_raw_tables.sql` to create tables in raw database.
+   - Run the provided Jupyter Notebooks in `ingestion` and `trans` your Databricks workspace for data transformation.
    
-3. Setup Azure Data Factory:
+6. Setup Azure Data Factory:
    - Import the ADF Pipelines JSON from the `ADF Pipeline Files` folder.
    - Create a trigger to run the pipeline at your preferred interval (e.g., weekly).
 
@@ -79,17 +93,23 @@ To run this project, you need:
 ### Project Structure
 
 ```plaintext
-├── notebooks
-│   ├── bronze_layer.ipynb        # Data ingestion and initial cleaning
-│   ├── silver_layer.ipynb        # Data transformation into usable formats
-│   ├── gold_layer.ipynb          # Creating structured tables for reporting
-├── azure_data_factory
-│   ├── pipeline_definition.json  # ADF pipeline export
-│   ├── trigger_definition.json   # ADF trigger export
-├── scripts
-│   ├── mount_containers.py       # Script to mount ADLS containers in Databricks
-├── visualizations
-│   ├── powerbi_report.pbix       # Power BI report file
+├── set-up
+│   ├── mount_adls_storage.ipynb  # Data Lake containers mount in Databricks
+├── utils
+│   ├── prepare_for_incremental_load.sql   # Dropping and Creating database
+├── includes
+│   ├── configuration.ipynb                # Creating variables to mounted path
+│   ├── common_functions.ipynb             # Functions to use in ingestion and Trans notebooks
+├── ingestion
+│   ├── 0.ingest_all_files.ipynb           # Runs 1 to 8 files
+│   ├── 1.ingest_circuits_files.ipynb      # Runs circuits file
+│   ├── 2.ingest_races_files.ipynb         # Runs races file
+│   ├── 3.ingest_constructors_files.ipynb  # Runs constructors file
+│   ├── 4.ingest_drivers_files.ipynb       # Runs drivers file
+│   ├── 5.ingest_results_files.ipynb       # Runs results file
+│   ├── 6.ingest_pit_stops_files.ipynb     # Runs pit stops file
+│   ├── 7.ingest_lap_times_files.ipynb     # Runs lap times file
+│   ├── 8.ingest_qualifying_files.ipynb    # Runs qualifying file
 ├── README.md                     # Project documentation
 ├── LICENSE                       # Open source license
 ├── requirements.txt              # Python dependencies
@@ -98,7 +118,7 @@ To run this project, you need:
 ## Pipeline Details
 
 ### Bronze Layer
-- Raw data ingested as CSV files.
+- Raw data ingested as CSV and JSON files.
 - Data is mounted from Azure Data Lake Gen 2 to the Databricks workspace for further processing.
 
 ### Silver Layer
