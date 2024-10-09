@@ -10,9 +10,9 @@ The primary goal of this project is to demonstrate skills in data engineering an
 
 ![Project Architecture](https://github.com/nandan2003/Databricks-Formula1-Project/blob/main/Databricks%20%26%20Power%20BI%20Images/Project%20Architecture.jpeg)
 
-- Bronze Layer: Stores raw, unprocessed data.
-- Silver Layer: Cleansed and transformed data for further analysis.
-- Gold Layer: Final structured data tables, optimized for enterprise reporting and analytics.
+- Raw (Bronze Layer): Stores raw, unprocessed data.
+- Processed (Silver Layer): Cleansed and transformed data for further analysis.
+- Presentation (Gold Layer): Final structured data tables, optimized for enterprise reporting and analytics.
 
 The pipeline is scheduled to run periodically (weekly), handling new incoming data efficiently through Azure Data Factory triggers and pipelines. The final visualizations are available in Power BI, connected directly to the gold layer.
 
@@ -45,6 +45,7 @@ The pipeline is scheduled to run periodically (weekly), handling new incoming da
 5. Visualization (Power BI):
    - The gold data layer is connected to Power BI, providing insightful visualizations such as race results, driver standings, and lap performance trends.
    - Power BI can pull live data from the gold container for real-time reporting.
+   - The visualizations included in this project are solely for demonstrating the workflow, as the primary focus is on building the data pipeline, not on creating in-depth visualizations.
 
 ## Getting Started
 
@@ -61,20 +62,19 @@ To run this project, you need:
 
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/yourusername/azure-databricks-f1-data-pipeline.git
-   cd azure-databricks-f1-data-pipeline
+   gh repo clone nandan2003/Databricks-Formula1-Project
    ```
 
 2. Setup Databricks Notebooks:
-   - Mount the Azure Data Lake Gen 2 containers (Bronze, Silver, and Gold) using the provided `mount_containers.py` script.
-   - Upload and run the provided Jupyter Notebooks in your Databricks workspace for data transformation.
+   - Mount the Azure Data Lake Gen 2 containers (Bronze, Silver, and Gold) using the provided `set-up/mount_adls_storage.ipynb`
+   - Upload and run the provided Jupyter Notebooks in    `ingestion` and `trans` your Databricks workspace for data transformation.
    
 3. Setup Azure Data Factory:
-   - Import the ADF Pipeline JSON from the `azure_data_factory` folder.
+   - Import the ADF Pipelines JSON from the `ADF Pipeline Files` folder.
    - Create a trigger to run the pipeline at your preferred interval (e.g., weekly).
 
 4. Connect to Power BI:
-   - Use the Power BI report (`powerbi_report.pbix`) and connect it to the gold layer data stored in Azure Data Lake Gen 2.
+   - Databricks can be connected to Power BI through the hive_metastore database in Databricks.
    
 ### Project Structure
 
@@ -120,7 +120,7 @@ Power BI pulls data from the Gold layer to visualize:
 - Driver Standings: Performance tracking throughout the season.
 - Lap Performance: Insights into race and lap-specific performance.
 
-![Power BI Report Screenshot](link-to-powerbi-screenshot)
+![Power BI Report](https://github.com/nandan2003/Databricks-Formula1-Project/blob/main/Databricks%20%26%20Power%20BI%20Images/Power%20BI%20Analysis%203.png)
 
 ## Azure Services Used
 
