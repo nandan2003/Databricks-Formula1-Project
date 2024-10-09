@@ -168,5 +168,3 @@ Power BI pulls data from the Gold layer to visualize:
 - Add support for real-time data streaming using Azure Event Hubs.
 - Implement additional Power BI visualizations for deeper analytics.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
