@@ -1,5 +1,5 @@
 
-# Azure Databricks Incremental Data Pipeline (Formula 1 Races Data)
+# Formula1 Azure Databricks Incremental Data Project (Formula 1 Races Data)
 
 ## Overview
 This project showcases an end-to-end data pipeline built using Azure Databricks and Azure Data Factory to handle incremental loads of Formula 1 race data. The pipeline processes raw data from Azure Data Lake Gen 2, transforming it across three data layers (Bronze, Silver, Gold), and then connects to Power BI for visualization.
@@ -94,9 +94,11 @@ To run this project, you need:
 
 ```plaintext
 ├── set-up
-│   ├── mount_adls_storage.ipynb  # Data Lake containers mount in Databricks
+│   ├── mount_adls_storage.ipynb           # Data Lake containers mount in Databricks
 ├── utils
 │   ├── prepare_for_incremental_load.sql   # Dropping and Creating database
+├── raw
+│   ├── create_raw_tables.sql              # Creates tables in Processed database
 ├── includes
 │   ├── configuration.ipynb                # Creating variables to mounted path
 │   ├── common_functions.ipynb             # Functions to use in ingestion and Trans notebooks
@@ -110,27 +112,38 @@ To run this project, you need:
 │   ├── 6.ingest_pit_stops_files.ipynb     # Runs pit stops file
 │   ├── 7.ingest_lap_times_files.ipynb     # Runs lap times file
 │   ├── 8.ingest_qualifying_files.ipynb    # Runs qualifying file
-├── README.md                     # Project documentation
-├── LICENSE                       # Open source license
-├── requirements.txt              # Python dependencies
+├── Trans                                  # Files loaded from processed and transformed according to industry purposes
+│   ├── 1.race_results.ipynb             
+│   ├── 2.driver_standings.ipynb             
+│   ├── 3.constructor_standings.ipynb             
+│   ├── 4.calculated_race_results.ipynb             
+├── ADF Pipeline Files
+│   ├── pl_ingest_formula1                 # Pipeline to run ingest files
+│   ├── pl_transform_formula1              # Pipeline to run transform files
+│   ├── pl_process_formula1                # Pipeline to run two pipelines with a trigger
+├── Data
+│   ├── 2021-03-21                         # Cutout data
+│   ├── 2021-03-28                         # Next week data
+│   ├── 2021-03-28                         # Next week data
+├── Analysis                               # SQL files for simple analysis
+├── Databricks & Power BI Images           # All screenshots of this project
 ```
 
 ## Pipeline Details
 
-### Bronze Layer
-- Raw data ingested as CSV and JSON files.
-- Data is mounted from Azure Data Lake Gen 2 to the Databricks workspace for further processing.
+### pl_ingest_formula1
+- Runs with a trigger every week.
+- Runs successfully all ingest files if new data is added to ADLS Gen 2 Raw container.
 
-### Silver Layer
+### pl_transform_formula1
+- Runs transform files in Databricks after pl_ingest_formula1
 - Data cleaning and transformation steps include:
   - Handling missing values.
   - Converting data types for further analysis.
   - Removing duplicates and outliers.
 
-### Gold Layer
-- Structured data tables ready for reporting.
-- Data saved as Parquet files for optimized querying.
-- Used by Power BI for building reports.
+### pl_process_formula1
+- A pipeline to run pl_ingest_formula1 followed by pl_process_formula1 with a trigger to run on every sunday.
 
 ## Power BI Visualizations
 
