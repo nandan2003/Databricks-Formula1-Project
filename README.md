@@ -8,7 +8,7 @@ The primary goal of this project is to demonstrate skills in data engineering an
 
 ## Architecture
 
-![Project Architecture]([link-to-architecture-diagram](https://github.com/nandan2003/Databricks-Formula1-Project/blob/b441ae3dbf4b34821689125e199b3601a123277e/Databricks%20%26%20Power%20BI%20Images/Project%20Architecture.jpeg))
+![Project Architecture](https://github.com/nandan2003/Databricks-Formula1-Project/blob/main/Databricks%20%26%20Power%20BI%20Images/Project%20Architecture.jpeg)
 
 - Bronze Layer: Stores raw, unprocessed data.
 - Silver Layer: Cleansed and transformed data for further analysis.
