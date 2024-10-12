@@ -126,7 +126,7 @@ To run this project, you need:
 │   ├── 2021-03-28                         # Next week data
 │   ├── 2021-03-28                         # Next week data
 ├── Analysis                               # SQL files for simple analysis
-├── Databricks & Power BI Images           # All screenshots of this project
+└── Databricks & Power BI Images           # All screenshots of this project
 ```
 
 ## Pipeline Details
